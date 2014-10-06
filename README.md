@@ -19,7 +19,7 @@ vagrant up
 Test it out
 --------------
 ```sh
-docker run -it --rm -v /Users/Jimmy/Code:/code ubuntu:latest bash
+docker run -it --rm -v $HOME:/code ubuntu:latest bash # you can change it to anything under your $HOME as well
 ```
 
 License
