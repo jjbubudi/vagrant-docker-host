@@ -19,7 +19,7 @@ vagrant up
 Test it out
 --------------
 ```sh
-docker run -it --rm ubuntu:latest bash
+docker run -it --rm -v /Users/Jimmy/Code:/code ubuntu:latest bash
 ```
 
 License
